@@ -1,0 +1,297 @@
+<!-- =========================
+FILE: vocabulary.html
+PAGE 2 - VOCABULARY
+========================= -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Food Vocabulary</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family:'Comic Sans MS', cursive;
+    background:linear-gradient(135deg,#fff7b2,#caffbf,#ffd6a5);
+    min-height:100vh;
+}
+
+header{
+    background:linear-gradient(to right,#ff9f1c,#ffbf69);
+    color:white;
+    text-align:center;
+    padding:25px;
+    font-size:45px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+nav{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+    padding:15px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    background:#90be6d;
+    padding:12px 20px;
+    border-radius:20px;
+    font-size:18px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    background:#ff9f1c;
+    transform:scale(1.08);
+}
+
+.intro{
+    text-align:center;
+    padding:20px;
+}
+
+.intro h2{
+    font-size:38px;
+    color:#ff6b00;
+    margin-bottom:10px;
+}
+
+.intro p{
+    font-size:22px;
+    color:#555;
+    max-width:850px;
+    margin:auto;
+    line-height:1.6;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
+    gap:30px;
+    padding:40px;
+    max-width:1400px;
+    margin:auto;
+}
+
+.card{
+    background:white;
+    border-radius:30px;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 10px 20px rgba(0,0,0,0.15);
+    transition:0.4s;
+    position:relative;
+    overflow:hidden;
+}
+
+.card::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:8px;
+    background:linear-gradient(to right,#90be6d,#ff9f1c);
+}
+
+.card:hover{
+    transform:translateY(-12px) scale(1.03);
+}
+
+.card img{
+    width:140px;
+    height:140px;
+    object-fit:contain;
+    transition:0.4s;
+}
+
+.card:hover img{
+    transform:rotate(5deg) scale(1.08);
+}
+
+.card h3{
+    margin-top:18px;
+    font-size:30px;
+    color:#ff6b00;
+}
+
+.card p{
+    font-size:18px;
+    color:#666;
+}
+
+.footer-box{
+    text-align:center;
+    padding:30px;
+}
+
+.footer-box h2{
+    color:#ff6b00;
+    font-size:35px;
+}
+
+.footer-box p{
+    font-size:22px;
+    color:#555;
+}
+
+footer{
+    background:#ff9f1c;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:20px;
+    font-size:20px;
+}
+
+@media(max-width:768px){
+
+header{
+    font-size:35px;
+}
+
+.intro h2{
+    font-size:30px;
+}
+
+.card h3{
+    font-size:25px;
+}
+
+.card img{
+    width:110px;
+    height:110px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+🍎 Food Vocabulary 🍔
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="healthy.html">Healthy Food</a>
+<a href="game.html">Game</a>
+<a href="safety.html">Internet Safety</a>
+</nav>
+
+<div class="intro">
+
+<h2>Learn Fun Food Words!</h2>
+
+<p>
+Welcome to the Food Vocabulary page!  
+Students can learn different food names with colourful pictures and fun English words.
+</p>
+
+</div>
+
+<div class="container">
+
+<div class="card">
+<img src="https://img.magnific.com/premium-photo/fresh-red-onion-isolated-white-background_454083-21.jpg">
+<h3>Onions</h3>
+<p>🧅 Tasty vegetables for cooking!</p>
+</div>
+
+<div class="card">
+<img src="https://static.vecteezy.com/system/resources/previews/004/288/070/large_2x/salad-leaf-lettuce-isolated-on-white-background-photo.jpg">
+<h3>Lettuce</h3>
+<p>🥬 Healthy green vegetable!</p>
+</div>
+
+<div class="card">
+<img src="https://t3.ftcdn.net/jpg/05/07/81/42/360_F_507814277_YH3Vgm7BLrAtD7Bv2MPTG1aKVe5QZl14.jpg">
+<h3>Chocolate</h3>
+<p>🍫 Sweet and delicious treat!</p>
+</div>
+
+<div class="card">
+<img src="https://img.magnific.com/premium-photo/assorted-biscuits-with-white-background_631068-1500.jpg">
+<h3>Biscuit</h3>
+<p>🍪 Crunchy snack for tea time!</p>
+</div>
+
+<div class="card">
+<img src="https://png.pngtree.com/png-clipart/20250105/original/pngtree-white-sugar-crystals-and-cubes-on-a-plain-background-perfect-for-png-image_18753423.png">
+<h3>Sugar</h3>
+<p>🧂 Makes food sweet!</p>
+</div>
+
+<div class="card">
+<img src="https://img.magnific.com/premium-photo/wheat-flour-wheat-bars-white-background_320146-63.jpg">
+<h3>Flour</h3>
+<p>🌾 Used to make cakes and bread!</p>
+</div>
+
+<div class="card">
+<img src="https://media.istockphoto.com/id/1372112175/photo/omelet-frittata-homemade-omelet-isolated-on-dish-with-white-background.jpg?s=612x612&w=0&k=20&c=e6F08MErFbCxB7dAQbVvNGUlRdOYLLuaoVFtHl09R0I=">
+<h3>Omelette</h3>
+<p>🍳 A yummy egg dish!</p>
+</div>
+
+<div class="card">
+<img src="https://img.magnific.com/premium-photo/fresh-green-peas-with-pods-isolated-white-background_252965-770.jpg">
+<h3>Peas</h3>
+<p>🟢 Small healthy vegetables!</p>
+</div>
+
+<div class="card">
+<img src="https://static.vecteezy.com/system/resources/previews/030/659/718/large_2x/pancakes-with-white-background-high-quality-ultra-free-photo.jpg">
+<h3>Pancake</h3>
+<p>🥞 Soft and fluffy breakfast food!</p>
+</div>
+
+<div class="card">
+<img src="https://media.istockphoto.com/id/1217479737/photo/pineapple-with-slices-isolated-on-white-background.jpg?s=612x612&w=0&k=20&c=KYxsZ-Bv1tEgjrOmH9qxak06iTK9S5betgteqTuDzhU=">
+<h3>Pineapple</h3>
+<p>🍍 Sweet tropical fruit!</p>
+</div>
+
+<div class="card">
+<img src="https://img.magnific.com/premium-photo/bell-peppers-isolated-white-background_198067-11.jpg">
+<h3>Peppers</h3>
+<p>🫑 Colourful and crunchy vegetables!</p>
+</div>
+
+<div class="card">
+<img src="https://img.magnific.com/premium-photo/coconut-isolated-white-background_252965-356.jpg">
+<h3>Coconut</h3>
+<p>🥥 Tropical fruit with tasty water!</p>
+</div>
+
+</div>
+
+<div class="footer-box">
+
+<h2>🌟 Great Job Learning Food Vocabulary! 🌟</h2>
+
+<p>
+Practice the words again and play the matching game to become a food vocabulary expert!
+</p>
+
+</div>
+
+<footer>
+Year 3 English • Unit 6 • Food, Please!
+</footer>
+
+</body>
+</html>

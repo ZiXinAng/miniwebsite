@@ -1,0 +1,286 @@
+<!-- =========================
+FILE: safety.html
+PAGE 5 - INTERNET SAFETY
+========================= -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Internet Safety</title>
+
+<style>
+
+*{
+    box-sizing:border-box;
+}
+
+body{
+    margin:0;
+    font-family:'Comic Sans MS', cursive;
+    background:linear-gradient(135deg,#fff7b2,#caffbf,#ffd6a5);
+    min-height:100vh;
+}
+
+header{
+    background:linear-gradient(to right,#ff9f1c,#ffbf69);
+    color:white;
+    text-align:center;
+    padding:25px;
+    font-size:45px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.2);
+}
+
+nav{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    flex-wrap:wrap;
+    padding:15px;
+}
+
+nav a{
+    text-decoration:none;
+    color:white;
+    background:#90be6d;
+    padding:12px 20px;
+    border-radius:20px;
+    font-size:18px;
+    transition:0.3s;
+}
+
+nav a:hover{
+    background:#ff9f1c;
+    transform:scale(1.08);
+}
+
+.intro{
+    text-align:center;
+    padding:20px;
+}
+
+.intro h2{
+    color:#ff6b00;
+    font-size:38px;
+    margin-bottom:10px;
+}
+
+.intro p{
+    font-size:22px;
+    color:#444;
+    max-width:800px;
+    margin:auto;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+    padding:30px;
+    max-width:1300px;
+    margin:auto;
+}
+
+.card{
+    background:white;
+    border-radius:25px;
+    padding:25px;
+    text-align:center;
+    box-shadow:0 10px 20px rgba(0,0,0,0.15);
+    transition:0.4s;
+    position:relative;
+    overflow:hidden;
+}
+
+.card::before{
+    content:"";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:8px;
+    background:linear-gradient(to right,#90be6d,#ff9f1c);
+}
+
+.card:hover{
+    transform:translateY(-10px) scale(1.03);
+}
+
+.card img{
+    width:110px;
+    height:110px;
+    object-fit:contain;
+    margin-bottom:15px;
+}
+
+.card h2{
+    color:#ff6b00;
+    font-size:30px;
+    margin-bottom:10px;
+}
+
+.card p{
+    color:#555;
+    font-size:20px;
+    line-height:1.6;
+}
+
+.safe-box{
+    background:white;
+    max-width:900px;
+    margin:20px auto 40px;
+    padding:30px;
+    border-radius:25px;
+    box-shadow:0 10px 20px rgba(0,0,0,0.15);
+}
+
+.safe-box h2{
+    text-align:center;
+    color:#ff6b00;
+    font-size:35px;
+}
+
+.safe-box ul{
+    font-size:22px;
+    line-height:2;
+    color:#444;
+}
+
+.safe-box li{
+    margin-left:20px;
+}
+
+footer{
+    background:#ff9f1c;
+    color:white;
+    text-align:center;
+    padding:20px;
+    font-size:20px;
+    margin-top:20px;
+}
+
+@media(max-width:768px){
+
+header{
+    font-size:35px;
+}
+
+.intro h2{
+    font-size:30px;
+}
+
+.card h2{
+    font-size:26px;
+}
+
+.card p{
+    font-size:18px;
+}
+
+.safe-box ul{
+    font-size:18px;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+🛡️ Internet Safety 🛡️
+</header>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="vocabulary.html">Vocabulary</a>
+<a href="healthy.html">Healthy Food</a>
+<a href="game.html">Game</a>
+</nav>
+
+<div class="intro">
+
+<h2>Stay Safe Online!</h2>
+
+<p>
+The internet is fun and useful, but students must learn how to stay safe online.
+Let’s learn some important internet safety tips together!
+</p>
+
+</div>
+
+<div class="container">
+
+<div class="card">
+
+<img src="https://cdn-icons-png.flaticon.com/512/2092/2092063.png">
+
+<h2>Firewall</h2>
+
+<p>
+A firewall protects computers from dangerous websites and hackers.
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://cdn-icons-png.flaticon.com/512/4241/4241973.png">
+
+<h2>Virus Threats</h2>
+
+<p>
+Computer viruses can damage files and slow down computers.
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://cdn-icons-png.flaticon.com/512/565/565547.png">
+
+<h2>Phishing</h2>
+
+<p>
+Do not click unknown links or share passwords online.
+</p>
+
+</div>
+
+<div class="card">
+
+<img src="https://cdn-icons-png.flaticon.com/512/5953/5953915.png">
+
+<h2>Cyberbullying</h2>
+
+<p>
+Always be kind and respectful when using the internet.
+</p>
+
+</div>
+
+</div>
+
+<div class="safe-box">
+
+<h2>✅ Safe Internet Practices</h2>
+
+<ul>
+<li>Use strong passwords 🔐</li>
+<li>Ask parents or teachers before visiting websites 👨‍🏫</li>
+<li>Do not share personal information 👤</li>
+<li>Use trusted websites only 🌐</li>
+<li>Be kind to others online ❤️</li>
+</ul>
+
+</div>
+
+<footer>
+🌟 Stay Smart • Stay Safe • Stay Happy Online 🌟
+</footer>
+
+</body>
+</html>
